@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- COMMON TAGS -->
+		<meta charset="utf-8">
+		<title>🌙 LiL Moon Rockets 🚀 Wallet</title>
+		<!-- Search Engine -->
+		<meta name="description" content="13337 Vector Pop Art NFT Collectibles on the Binance Smart Chain">
+		<meta name="image" content="https://lilmoonrockets.com/assets/img/socialgraph.png">
+		<!-- Schema.org for Google -->
+		<meta itemprop="name" content="🌙 LiL Moon Rockets  🚀">
+		<meta itemprop="description" content="13337 Vector Pop Art NFT Collectibles on the Binance Smart Chain">
+		<meta itemprop="image" content="https://lilmoonrockets.com/assets/img/socialgraph.png">
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta name="og:title" content="🌙 LiL Moon Rockets  🚀">
+		<meta name="og:description" content="13337 Vector Pop Art NFT Collectibles on the Binance Smart Chain">
+		<meta name="og:image" content="https://lilmoonrockets.com/assets/img/socialgraph.png">
+		<meta name="og:url" content="https://lilmoonrockets.com">
+		<meta name="og:site_name" content="LiL Moon Rockets">
+		<meta name="og:type" content="website">
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<!-- CSS -->
+		<link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<!-- <link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+		<link href="assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+		<link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet"> -->
+		<link href="assets/css/nouislider.min.css" rel="stylesheet">
+		<!-- <link href="assets/plugins/sal/sal.min.css" rel="stylesheet"> -->
+		<link href="assets/css/theme.css" rel="stylesheet">
+		<!-- Fonts/Icons -->
+		<link href="assets/plugins/font-awesome/css/all.css" rel="stylesheet">
+		<!-- <link href="assets/plugins/themify/themify-icons.min.css" rel="stylesheet"> -->
+		<!-- <link href="assets/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
+		<script>const currentpage = "wallet";</script>
+		<style>
+
+		</style>
+	</head>
+	<body data-preloader="1">
+
+		<!-- Header -->
+		<div class="header right">
+			<div class="container">
+				<!-- Logo -->
+				<div class="header-logo">
+					<h5><a href>LIL MOON ROCKETS</a></h5>
+					<!--
+					<img class="logo-dark" src="assets/images/your-logo-dark.png" alt="">
+					<img class="logo-light" src="assets/images/your-logo-light.png" alt="">
+					-->
+				</div>
+				<!-- Menu -->
+				<div class="header-menu">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="wallet.html">WALLET</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Menu Extra -->
+				<div class="header-menu-extra">
+					<ul class="list-inline">
+						<li><a href="https://medium.com/@lilmoonrockets" target="_blank"><i class="fab fa-medium"></i></a></li>
+						<li><a href="https://twitter.com/@lilmoonrockets" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://t.me/lilmoonrockets" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+					</ul>
+				</div>
+				<!-- Menu Toggle -->
+				<button class="header-toggle">
+					<span></span>
+				</button>
+			</div><!-- end container -->
+		</div>
+		<!-- end Header -->
+
+
+
+
+		<!-- Wallet section -->
+		<div class="section-md padding-top-0">
+			<div class="container">
+				<div class="margin-bottom-70">
+
+					<div class="row margin-top-70">
+						<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+							<h1 class="font-weight-normal text-center">Wallet</h1>
+							<h4 class="text-center"><code id="current_account">0xLOADINGWALLETADDRESS</code><br>owns <a href="https://etherscan.io/token/0x0DD5aaC633a92F50f55254cA91F98879307d92b5?a=0xLOADINGWALLETADDRESS" target="_blank" class="user_lmr_supply_link" title="Verify the NFT balance independently on Etherscan"><span class="user_lmr_supply"><i>loading LMR NFT balance</i></span></a> and <a href="https://etherscan.io/token/0x0DD5aaC633a92F50f55254cA91F98879307d92b5?a=0xLOADINGWALLETADDRESS" target="_blank" class="user_nyr_supply_link" title="Verify the NYR balance independently on Etherscan"><span class="user_nyr_supply"><i>loading NYR balance</i></span></a></h4>
+						</div>
+					</div>
+
+					<div class="row" id="data-container">
+
+					</div>
+					<div class="row margin-top-40">
+						<div class="col-12 text-center">
+							<div id="pagination-container" class="d-inline-block"></div>
+						</div>
+					</div>
+
+					<div class="row margin-top-40">
+						<div class="col-md-4 offset-md-2">
+							<a class="button button-xl button-cta button-fullwidth" href="#" onclick="sendNyr()">Send NYR Tokens</a>
+						</div>
+						<div class="col-md-4">
+							<a class="button button-xl button-cta button-fullwidth" href="#" onclick="batch_claimNYR()">Batch Claim NYR Tokens</a>
+						</div>
+
+						<div class="col-12 col-md-8 offset-md-2">
+							<p><a class="button button-xl button-cta button-fullwidth" href="#" onclick="getLMR()">Purchase LiL Moon Rocket(s)</a></p>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div><!-- end container -->
+		</div>
+
+
+
+		<footer>
+			<div class="section bg-dark">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6">
+							<h5 class="font-family-secondary">LIL MOON ROCKETS</h5>
+							<ul class="list-inline margin-top-10">
+								<li><a href="https://medium.com/@lilmoonrockets" target="_blank"><i class="fab fa-medium"></i></a></li>
+								<li><a href="https://twitter.com/@lilmoonrockets" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://t.me/lilmoonrockets" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-6 text-md-right">
+							<ul class="list-inline-dash margin-bottom-10">
+								<li><a href="terms.html">Terms</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="provenance.html">Provenance</a></li>
+								<li><a href="wallet.html">Wallet</a></li>
+								<li><a href="mailto:lilmoonrockets@protonmail.com">Contact</a></li>
+								<li><a href="disclaimer.html">Disclaimer</a></li>
+							</ul>
+							<p>LiL Moon Rockets is initiated by <a href="tenensfortis.html">Tenens Fortis DAO</a></p>
+						</div>
+					</div><!-- end row -->
+					<div class="row col-spacing-50 margin-top-50">
+						<div class="col-12">
+							<p class="text-center"><small><a href="https://metamask.io" target="_blank">MetaMask</a>, <a href="https://bscscan.com" target="_blank">BSCscan</a> and <a href="https://thehashmasks.com" target="_blank">Hashmasks</a> are great products and services, but we are not affiliated with them in any way.</small></p>
+						</div>
+					</div>
+				</div><!-- end container -->
+			</div>
+		</footer>
+
+		<!-- Scroll to top button -->
+		<div class="scrolltotop">
+			<a class="button-circle button-circle-sm button-circle-white" href="#"><i class="fas fa-angle-double-up"></i></a>
+		</div>
+		<!-- end Scroll to top button -->
+
+		<!-- cursor -->
+		<div id="mouserocket">🚀</div>
+
+		<!-- Modals -->
+
+		<div class="modal fade bd-modal-lg" id="modalContribute" tabindex="-1" role="dialog" aria-labelledby="modalContributeLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+
+					<div class="modal-body">
+
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12 margin-top-10">
+									<button type="button" class="close text-left float-right" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+
+									<h4 class="modal-title text-center padding-bottom-0" id="modalContributeLabel"><span class="font-family-secondary">LIL MOON ROCKETS<br></span> NFT Checkout</h4>
+								</div>
+							</div>
+								<div class="row">
+									<div class="col-md-2">
+										<img style="max-width:60px;" src="assets/img/metamasklogo.png" alt="Use MetaMask to confirm your transactions" class="margin-top-20">
+										<img style="max-width:60px;" src="assets/img/logo_bsc.png" alt="Point your MetaMask to Binance Smartchain or it won't work" class="margin-top-20">
+								</div>
+
+									<div class="col-md-10">
+
+										<p>LiL Moon Rockets are NFTs acquired from the issueing smart contract on the Binance SmartChain at address <code>0x0DD5aaC633a92F50f55254cA91F98879307d92b5</code> (<a href="https://BscScan.com/address/0x0DD5aaC633a92F50f55254cA91F98879307d92b5" target="_blank">BscScan</a>).
+											<ul class="checkout">
+												<li><b>The current price</b> for 1 LiL Moon Rocket NFT <b>is <span class="nftprice"></span></b>.</li>
+												<li>LiL Moon Rockets <b>will increase in price</b> based on total supply.</li>
+												<li><b>Only 13337 LiL Moon Rockets can ever be issued</b>.</li>
+											</ul>
+										</p>
+									</div>
+								</div>
+								<div class="row margin-top-40">
+									<div class="col-md-2 offset-md-1"><p></p><h5 class="font-family-primary text-right">amount:</h5><p></p></div>
+									<div class="col-md-6">
+										<p>
+											<div id="slider"></div>
+										</p>
+									</div>
+									<div class="col-md-2"><p></p><h5 class="font-family-primary" id="totalprice"></h5><p></p></div>
+								</div>
+								<div class="row margin-top-40">
+									<div class="col-md-6 offset-md-3">
+										<div class="form-check" id="agreedToTermsContainer">
+												<input class="form-check-input" type="checkbox" value id="agreedToTerms">
+												<label class="form-check-label" for="agreedToTerms">
+													You agree that <b>you have read and comply</b> with the <a href="terms.html" target="_blank">Terms &amp; Conditions</a> and <a href="disclaimer.html" target="_blank">Disclaimer</a>
+												</label>
+											</div>
+									</div>
+								</div>
+								<div class="row margin-top-40">
+									<div class="col-md-6 offset-md-3">
+									</div>
+								</div>
+								<button class="button button-xl button-cta button-fullwidth" onclick="checkOut()" id="checkoutbutton">Click to Complete Checkout with MetaMask</button>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade bd-modal-lg" id="modalContributeSuccess" tabindex="-1" role="dialog" aria-labelledby="modalContributeSuccessLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+
+					<div class="modal-body">
+
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12 margin-top-10">
+									<button type="button" class="close text-left float-right" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+
+									<h4 class="modal-title text-center padding-bottom-0" id="modalContributeSuccessLabel"><span class="font-family-secondary">LIL MOON ROCKETS<br></span> Success! You are on a mission to the moon!</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-1 margin-top-20">
+
+									<p>Congratulations <code id="user_address">0xLOADINGWALLETADDRESS</code>, you are the proud owner of <span class="user_lmr_supply"><i>loading LMR NFT supply</i></span> (<a href="https://BscScan.com/token/0x0DD5aaC633a92F50f55254cA91F98879307d92b5?a=0xLOADINGWALLETADDRESS" target="_blank" class="user_lmr_supply_link">BscScan</a>).</p>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+								<p class="padding-bottom-10 margin-top-20">
+									<a class="button button-xl button-fullwidth padding-10" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flilmoonrockets.com&amp;via=lilmoonrockets&amp;text=%27bout%20to%20go%20to%20the%20moon%21%20I%20just%20loaded%20up%20on%20%uD83D%uDE80%20LiL%20Moon%20Rockets%20%uD83D%uDE80&amp;hashtags=nft%2Cbsc%2Cbinance" target="_blank" title="<: the <3">Tweet ur success!</a>
+								</p>
+								</div>
+								<div class="col-md-4">
+									<p class="padding-bottom-10 margin-top-20">
+										<button class="button button-xl button-cta button-fullwidth padding-10" onclick="getMoar()">Need Moar Rockets?</button>
+									</p>
+								</div>
+								<div class="col-md-4">
+									<p class="padding-bottom-10 margin-top-20">
+										<a class="button button-xl button-fullwidth padding-10" href="wallet.html" title="Check out your NFTs in your wallet">Your NFT wallet</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade bd-modal-lg" id="modalDownloadMM" tabindex="-1" role="dialog" aria-labelledby="modalDownloadMMLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="modalDownloadMMLabel">Please install MetaMask &amp; Connect to Binance Smart Chain</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-2">
+								<a href="https://metamask.io" target="_blank"><img src="assets/img/metamasklogo.png" class="img-responsive"></a>
+							</div>
+
+							<div class="col-md-10">
+								<p>In order to use LiL Moon Rockets, you need <a href="https://metamask.io" target="_blank">download the MetaMask Wallet</a> extension for your browser and <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain">connect</a> it to the Binance Smart Chain network.</p>
+								<p><a href="https://metamask.io" target="_blank">Visit MetaMask.io</a> for a downloadlink for your browser and you are ready to go!</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade bd-modal-lg" id="modalSwapChainid" tabindex="-1" role="dialog" aria-labelledby="modalSwapChainidLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="modalSwapChainidLabel">Please point your MetaMask network to Binance Smart Chain</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-4">
+								<img class="img-responsive" src="assets/img/metamaskbsc.png" alt="Use MetaMask to confirm your transactions">
+						</div>
+
+							<div class="col-md-8">
+								<p>In order to use LiL Moon Rockets, you need to <b>point your MetaMask Wallet's Network connection to the Binance Smart Chain</b>:</p>
+								<ol style="padding: 10px; margin-left: 1em;">
+									<li>Open MetaMask and click on "Ethereum Mainnet" (next to the fox logo)  to open the Network selection dropdown.</li>
+									<li>Click on "Custom RPC" to add the Binance Smart Chain network.</li>
+									<li>Fill out the following:
+										<ul>
+											<li>Network Name: <code>Binance Smart Chain</code></li>
+											<li>New RPC Url: <code>https://bsc-dataseed.binance.org/</code></li>
+											<li>ChainID: <code>56</code></li>
+											<li>Symbol: <code>BNB</code></li>
+											<li>Block Explorer: <code>https://bscscan.com</code></li>
+										</ul>
+									</li>
+									<li>Hit 'save' to store the Binance Smart Chain settings.</li>
+								</ol>
+								<p><br>Your wallet will now be connected to the Binance Smartchain. You can always swap networks using the dropdown in MetaMask popup. <br>Don't trust us? Here is an <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain">alternative instruction by Binance itself</a> with the same result.</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade bd-modal-lg" id="modalDownloadBrowser" tabindex="-1" role="dialog" aria-labelledby="modalDownloadBrowserLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="modalDownloadBrowserLabel">Please use a MetaMask enabled browser</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						<p>In order to use LiL Moon Rockets, you need to run the MetaMask Wallet extension.</p>
+						<p>MetaMask is supported on Chrome, Brave, Firefox and Edge. Please use any of these browsers with the MetaMask extention.</p>
+						<p><img src="assets/img/metamaskbrowsers.png"></p>
+						<a class="button button-lg button-reveal-right-outline-grey" href="https://metamask.io" target="_blank">
+							<i class="fas fa-long-arrow-alt-right"></i><span>Visit MetaMask.com</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="modal fade" id="modalNFT" tabindex="-1" role="dialog" aria-labelledby="modalNFT_title" aria-hidden="true" data-tokenid="-1">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+
+					<div class="modal-body">
+
+						<div class="container-fluid padding-10">
+								<div class="row">
+									<div class="col-md-6">
+										<img src="assets/img/prereveal1.png" alt="NFT Artwork" id="modalNFT_image">
+										<br><small class="font-family-primary" style="text-overflow: clip;">IPFS: <a id="modalNFT_ipfshash" href target="_blank"></a></small>
+									</div>
+
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-12 margin-top-10">
+												<button type="button" class="close text-left float-right" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+												<h2 class="modal-title text-left padding-bottom-0" id="modalNFT_title">1234567890 1234567890 1234</h2>
+												<h4>NFT #<span id="modalNFT_tokenid">00000</span>
+													<br><span class="font-family-primary">SEQUENCE: <span id="modalNFT_artworkid"></span>/13337</span>
+												</h4>
+											</div>
+										</div>
+
+										<ul class="nav nav-tabs" id="myTab" role="tablist">
+										  <li class="nav-item">
+										    <a class="nav-link active" id="traits-tab" data-toggle="tab" href="#traits" role="tab" aria-controls="traits" aria-selected="true">Traits</a>
+										  </li>
+										  <li class="nav-item">
+										    <a class="nav-link" id="actions-tab" data-toggle="tab" href="#actions" role="tab" aria-controls="profile" aria-selected="false">Actions</a>
+										  </li>
+										</ul>
+
+										<div class="tab-content" id="myTabContent">
+										  <div class="tab-pane fade" id="actions" role="tabpanel" aria-labelledby="actions-tab">
+
+												<div class="row">
+													<div class="col-md-12">
+														<h1 class="font-family-primary margin-0" id="modalNFT_nyr">3000</h1>
+														<h6 class="font-family-primary font-weight-300">Accumulated NYR - <a class="#" href="#" onclick="modalNFT_claimNYR()">Claim NYR</a></h6>
+													</div>
+												</div>
+
+												<hr class="bg-black-03">
+												<div class="row">
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" href="#" onclick="modalNFT_rename()">
+		  												<i class="fas fa-signature"></i><span>Rename</span>
+														</a>
+													</div>
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" href="#" onclick="modalNFT_transfer()">
+		  												<i class="fas fa-share"></i><span>Transfer</span>
+														</a>
+													</div>
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" href="#not-yet-revealed" id="modalNFT_svglink">
+		  												<i class="fas fa-bezier-curve"></i><span>SVG</span>
+														</a>
+													</div>
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" href="#" target="_blank" id="modalNFT_tweetlink">
+		  												<i class="fab fa-twitter"></i><span>Tweet</span>
+														</a>
+													</div>
+
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" href="#" target="_blank" id="modalNFT_gallerydeeplink">
+		  												<i class="fas fa-link"></i><span>Link</span>
+														</a>
+													</div>
+
+													<div class="col-md-6">
+														<a class="button button-xl button-reveal-left-outline-dark button-fullwidth" onclick="getLMR();" href="#" id>
+		  												<i class="fas fa-rocket"></i><span>Mint</span>
+														</a>
+													</div>
+
+												</div>
+
+											</div>
+
+											<div class="tab-pane fade show active" id="traits" role="tabpanel" aria-labelledby="traits-tab">
+
+												<div class="row margin-top-20">
+
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Hitchhiker</small><br><span id="traitname_hiker"></span></h6>
+																									<small id="traitchance_hiker"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Rocket</small><br><span id="traitname_rocket"></span></h6>
+																									<small id="traitchance_rocket"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Window</small><br><span id="traitname_win"></span></h6>
+																									<small id="traitchance_win"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Moon</small><br><span id="traitname_moon"></span></h6>
+																									<small id="traitchance_moon"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Pattern</small><br><span id="traitname_pattern"></span></h6>
+																									<small id="traitchance_pattern"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Size</small><br><span id="traitname_pattern_size"></span></h6>
+																									<small id="traitchance_pattern_size"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>No pattern</small><br><span id="traitname_nopattern"></span></h6>
+																									<small id="traitchance_nopattern"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Basecolor</small><br><span id="traitname_color"></span></h6>
+																									<small id="traitchance_color"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Palette</small><br><span id="traitname_palette"></span></h6>
+																									<small id="traitchance_palette"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>B/W</small><br><span id="traitname_blackwhite"></span></h6>
+																									<small id="traitchance_blackwhite"></small>
+																								</div>
+
+																								<div class="col-md-4" data-toggle="tooltip" data-placement="bottom" title>
+																									<h6><small>Dashed</small><br><span id="traitname_dashed"></span></h6>
+																									<small id="traitchance_dashed"></small>
+																								</div>
+
+																								<div class="col-md-4">
+																									<h6><small>Minted</small><br><span id="traitname_isminted">?</span></h6>
+																									<small id="traitchance_isminted"></small>
+																								</div>
+
+																								<div class="col-md-4">
+																									<h6><small>RR-value</small><br><span id="traitchance_rrvalue">RR-value</span></h6>
+																									<!-- <small id="traitchance_rrvalue"></small> -->
+																								</div>
+
+																								<div class="col-md-4">
+																									<h6><small>RR-rank</small><br><span id="traitname_rrrank"></span></h6>
+																								</div>
+
+																								<div class="col-md-4">
+																									<h6><small>RR-Rating</small><br><span id="traitname_rrrating">Top %</span></h6>
+																								</div>
+
+
+
+
+												</div>
+
+
+											</div>
+
+										</div>
+
+
+
+
+									</div>
+								</div>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="audios">
+			<audio src="assets/img/error.mp3" id="sound_error" preload="preload">
+			</audio>
+			<audio src="assets/img/success.mp3" id="sound_success" preload="preload">
+			</audio>
+		</div>
+		<!-- ***** JAVASCRIPTS ***** -->
+		<script src="assets/js/jquery-3.5.1.min.js"></script>
+		<script src="assets/js/web3.min.js"></script>
+		<script src="assets/js/nouislider.min.js"></script>
+
+		<script src="assets/js/bootstrap-dialog.min.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+		<script src="assets/plugins/plugins.js"></script>
+		<script src="assets/js/bignumber.min.js"></script>
+		<script src="assets/js/pagination.js"></script>
+		<script src="assets/js/functions.js"></script>
+		<script src="assets/js/sql-wasm.js"></script>
+		<script src="assets/js/abis.js"></script>
+		<script src="assets/js/typemaps.js"></script>
+		<script src="assets/js/contractinteractions_v%3D42521.js"></script>
+	</body>
+</html>
